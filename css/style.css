@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 15px;
+    font-family: Iconsolata, sans-serif;
+    line-height: 1.5;
+}
+
+p {
+    margin: 18px 0;
+    font-size: 18px;
+}
+
+h5 {
+    margin: 10px 0;
+    padding: 64px 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.pd-8-16 {
+    padding: 8px 16px !important;
+}
+
+.pd-12-24 {
+    padding: 12px 24px !important;
+}
+
+.pd-8 {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+}
+
+.white-black {
+    color: #fff !important;
+    background-color: #000 !important;
+}
+
+.black {
+    color: #000 !important;
+}
+
+.container {
+    padding: 0 16px;
+    background-color: #fdf5e6;
+}
+
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.row {
+
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col {
+    float: left;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.col-4 {
+    width: 25%;
+}
+
+.header {
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.header a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    text-transform: uppercase;
+}
+
+.hero .hero-content {
+    background: url('/img/coffeehouse.jpg') center / cover no-repeat;
+    padding-top: 27%;
+    position: relative;
+    filter: grayscale(50%);
+}
+
+.hero .hero-text {
+    position: absolute;
+    display: inline-block;
+
+}
+
+.hero .hero-1 {
+    bottom: 0;
+    left: 0;
+    font-size: 19px;
+}
+
+.hero .hero-2 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    color: #fff;
+    text-align: center;
+}
+
+.hero .hero-3 {
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    font-size: 19px;
+}
+
+.about {
+
+}
+
+.content-heading {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.container-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.quote {
+    border-left: 6px solid #ccc;
+    padding: 0 16px;
+    margin: 16px 0;
+    background-color: #f1f1f1;
+    display: inline-block;
+}
+
+.about-img {
+    max-width: 1000px;
+    width: 100%;
+    margin-top: 16px;
+    filter: grayscale(80%);
+}
+
+.menu {
+
+}
+
+.menu .menu-list {
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.contact {
+
+}
+
+.footer {
+
+}
